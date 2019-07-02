@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+
+    tools:context="com.solution.rhythm.fueldensityconvertor.CalcActivity">
+
+    <LinearLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10sp"
+        >
+
+        <TextView
+            android:id="@+id/tempTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyInputTextStyle"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:text="TEMPERATURE"
+            />
+        <EditText
+            android:id="@+id/tempEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/densityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyInputTextStyle"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:text="DENSITY"
+            />
+        <EditText
+            android:id="@+id/densityEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/CalcButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_buttonback"
+            android:onClick="buttonClicked"
+            android:padding="5dp"
+            android:text="Calculate"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:layout_below="@+id/inputLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10sp">
+        <TextView
+            android:id="@+id/standardDensitytextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyInputTextStyle"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:text="STANDARD DENSITY"/>
+        <ProgressBar
+            android:id="@+id/desityProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="true"/>
+        <EditText
+            android:id="@+id/standardEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9529062142998244/1154602871">
+    </com.google.android.gms.ads.AdView>
+</android.widget.RelativeLayout>

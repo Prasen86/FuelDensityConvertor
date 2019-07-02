@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "308541234954",
+    "firebase_url": "https://fuel-density-convertor.firebaseio.com",
+    "project_id": "fuel-density-convertor",
+    "storage_bucket": "fuel-density-convertor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308541234954:android:3619308a56e82def",
+        "android_client_info": {
+          "package_name": "com.solution.rhythm.fueldensityconvertor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308541234954-js1up86bajoa7ccg689tgcr594u9q98l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjvWfy0QHs5e7lKJE9nhV8wJjGyCrQ8Xo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

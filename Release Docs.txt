@@ -1,0 +1,12 @@
+This app is helpful for all petrol pumps to replace your physical copy of your ASTM 53 B table which is used to convert observed density to standard density at 15 degree Centigrade. 
+This can be very useful and save all your time looking up the old copy of density conversion  tables in the Digital world.
+
+This app is very simple to use with only two fields of input - observed density and temperature. It will convert into standard density with a blink of any eye. 
+
+It can be easily used by any person related to a petrol pump with a smart phone.
+
+_________________________________
+
+We are always excited to hear from you.
+
+We are eager to hear  any feedback, queries or suggestions from you.
